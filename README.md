@@ -9,7 +9,7 @@ Uma extensão de snippets pensada para a equipe de desenvolvimento easydots.
 Você pode instalar essa extensão no link abaixo:
 
 ```bash
-  https://marketplace.visualstudio.com/items?itemName=Easydots.easydots-snippets#review-details
+  https://marketplace.visualstudio.com/items?itemName=NatanOliveiraBravo.easy-code-snippets
 ```
     
 ## Autores
