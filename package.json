@@ -1,0 +1,25 @@
+{
+  "name": "easy-snippets",
+  "displayName": "Easy Snippets",
+  "description": "Uma extensão de snippets pensada para a equipe de desenvolvimento easydots.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natanbravo/easy_snippets.git"
+  },
+  "icon": "easy.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

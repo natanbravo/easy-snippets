@@ -1,0 +1,292 @@
+{
+	"Import all Components": {
+		"prefix": "import components",
+		"body": [
+			"import { EdCheckbox } from '@components/form/EdCheckbox';",
+ 			"import { EdCheckboxGroup } from '@components/form/EdCheckboxGroup';",
+ 			"import { EdCheckPicker } from '@components/form/EdCheckPicker';",
+ 			"import { EdCheckPickerAsync } from '@components/form/EdCheckPickerAsync';",
+ 			"import { EdDatePicker } from '@components/form/EdDatePicker';",
+ 			"import { EdDateRangePicker } from '@components/form/EdDateRangePicker';",
+ 			"import { EdInputMaskHours } from '@components/form/EdInputMaskHours';",
+ 			"import { EdInputNumber } from '@components/form/EdInputNumber';",
+ 			"import { EdInputText } from '@components/form/EdInputText';",
+ 			"import { EdOptions } from '@components/form/EdOptions';",
+ 			"import { EdSelect } from '@components/form/EdSelect';",
+ 			"import { EdSelectAsync } from '@components/form/EdSelectAsync';",
+ 			"import { EdTextArea } from '@components/form/EdTextArea';",
+ 			"import { EdTimePicker } from '@components/form/EdTimePicker';",
+			"import { EdToggle } from '@components/form/EdToggle';",
+		],
+		"description": "Log output to console"
+	},
+		"Import lib": {
+		"prefix": "import export",
+		"body": [
+			"import $1 from '$2';",
+		],
+		"description": "import export default"
+	},
+	"Import func": {
+		"prefix": "import func",
+		"body": [
+			"import {$1} from '$2';",
+		],
+		"description": "import one export"
+	},
+		"Import EdText": {
+		"prefix": "EdInputText",
+		"body": [
+		"<EdInputText$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdInputText Component "
+	},
+		"Import EdTextArea": {
+		"prefix": "EdTextArea",
+		"body": [
+			"<EdTextArea$0",
+			"colDefinition={{",
+			"	key: '$1',",
+			"	label: 'tenant.$2.$3.label',",
+			"	help: 'tenant.$2.$3.help',",
+			"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+			"}}",
+			"formChange={handleChange}",
+			"formValue={formValue}",
+			"formError={formError}",
+		"/>"
+		],
+		"description": "EdTextArea component"
+	},
+	"Import EdInputNumber": {
+		"prefix": "EdInputNumber",
+		"body": [
+		"<EdInputNumber$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdInputNumber Component "
+	},
+	"Import EdInputNumber": {
+		"prefix": "EdInputNumber",
+		"body": [
+		"<EdInputNumber$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdInputNumber Component "
+	},
+	"Import EdToggle": {
+		"prefix": "EdToggle",
+		"body": [
+		"<EdToggle$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdToggle Component "
+	},
+	"Import EdCheckbox": {
+		"prefix": "EdCheckbox",
+		"body": [
+		"<EdCheckbox$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdCheckbox Component "
+	},
+	"Import EdDateRangePicker": {
+		"prefix": "EdDateRangePicker",
+		"body": [
+		"<EdDateRangePicker$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdDateRangePicker Component "
+	},
+	"Import EdDatePicker": {
+		"prefix": "EdDatePicker",
+		"body": [
+		"<EdDatePicker$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdDatePicker Component "
+	},
+	"Import EdTimePicker": {
+		"prefix": "EdTimePicker",
+		"body": [
+		"<EdTimePicker$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdTimePicker Component "
+	},
+	"Import EdCheckPicker": {
+		"prefix": "EdCheckPicker",
+		"body": [
+		"<EdCheckPicker$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdCheckPicker Component "
+	},
+	"Import EdOptions": {
+		"prefix": "EdOptions",
+		"body": [
+		"<EdOptions$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdOptions Component "
+	},
+	"Import EdInputMaskHours": {
+		"prefix": "EdInputMaskHours",
+		"body": [
+		"<EdInputMaskHours$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdInputMaskHours Component "
+	},
+	"Import EdCheckboxGroup": {
+		"prefix": "EdCheckboxGroup",
+		"body": [
+		"<EdCheckboxGroup$0",
+		"colDefinition={{",
+		"	key: '$1',",
+		"	label: 'tenant.$2.$3.label',",
+		"	help: 'tenant.$2.$3.help',",
+		"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+		"}}",
+		"formChange={handleChange}",
+		"formValue={formValue}",
+		"formError={formError}",
+		"/>"
+		],
+		"description": "EdCheckboxGroup Component "
+	},
+		"Import EdSelect": {
+		"prefix": "EdSelect",
+		"body": [
+			"<EdSelect$0",
+			"colDefinition={{",
+			"	key: '$1',",
+			"	label: 'tenant.$2.$3.label',",
+			"	help: 'tenant.$2.$3.help',",
+			"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+			"}}",
+			"formChange={handleChange}",
+			"formValue={formValue}",
+			"formError={formError}",
+			"/>",
+		],
+		"description": "EdSelect Component"
+	},
+		"Import EdSelectAsync": {
+		"prefix": "EdSelectAsync",
+		"body": [
+			"<EdSelectAsync$0",
+			"colDefinition={{",
+			"	key: '$1',",
+			"	label: 'tenant.$2.$3.label',",
+			"	help: 'tenant.$2.$3.help',",
+			"	breakpoints: { md: 4, lg: 4, xl: 4 },",
+			"}}",
+			"formChange={handleChange}",
+			"formValue={formValue}",
+			"formError={formError}",
+			"/>",
+		],
+		"description": "EdSelectAsync Component"
+	}
+}
