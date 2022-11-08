@@ -1,8 +1,9 @@
 {
-  "name": "easy-snippets",
-  "displayName": "Easy Snippets",
+  "name": "easydots-snippets",
+  "displayName": "Easydots Snippets",
   "description": "Uma extensão de snippets pensada para a equipe de desenvolvimento easydots.",
-  "version": "0.0.1",
+  "publisher": "Natan Oliveira Bravo",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.73.0"
   },
